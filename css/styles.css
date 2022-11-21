@@ -1,0 +1,342 @@
+
+.wrapper{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+.bg{
+    z-index: -2;
+    position: absolute;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/logo_grupo_nova.png");
+    background-size: 30vh, auto; 
+    filter: blur(5px)  opacity(10%);
+}
+
+.top{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    height: 10vh;   
+}
+
+.logo{
+    position: relative;
+    margin-left: 1%;
+    height: 5vh;
+    width: auto;
+}
+
+.logo_principal{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.logo_principal img{
+    align-self: center;
+    max-width:  738px;
+    width: 40%;
+    min-width: 250px;
+    height: auto;
+}
+
+.logo_principal a{
+    align-self: center;
+    font-size: clamp(1.2em, 1.5vw, 2.6em);
+}
+
+.seta_baixo{
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 91%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: linear-gradient( #ffffff00 , #ffffff 70%);
+}
+
+.seta_baixo img{
+    width: auto;
+    height: 100%;
+    align-self: center;
+    filter: opacity(50%);
+}
+
+.content{
+    z-index: -1;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+}
+
+.entrada{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+
+.black{
+   z-index: -1;
+   position:relative; 
+   width: 100%;
+   height: 57vh;
+   align-self: center;
+   background-image:linear-gradient(to left,#040404, #717171 70%)
+}
+
+.bandeira{
+    position: absolute;
+    width: 30%;
+    min-width: 400px;
+    margin-left: 10vw;
+    height: 63vh;
+    min-height: 400px;
+}
+
+.bandeira img{
+    width: 100%;
+    height: 100%;    
+}
+
+.texto_1{
+    position: absolute;
+    height: 100%;  
+    width: 60%;
+    right: 0;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.texto_1 b{
+    align-self: center;
+    font-size: 64px;
+    color: #EE0A0A;
+}
+
+.texto_1 div{
+    align-self: center;
+    height: auto;
+    width: 732px;
+}
+
+.texto_1 div p{
+    font-size: 32px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.projetos{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top:40vh;
+}
+.projetos #titulo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#titulo b{
+    font-size: 64px;
+    color: #EE0A0A;
+    align-self: center; 
+}
+
+.texto_2{
+ width: 60%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+ justify-content: center;
+}
+.texto_2 b{
+    align-self: center;
+    font-size: 64px;
+    color: #0AC5EE;
+}
+
+.texto_2 div{
+    width: 800px;
+    align-self: center;
+}
+.texto_2 div p{
+    font-size: 32px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.logo_libre{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    left: 60%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo_libre img{    
+    width:100%;
+    height: auto;
+}
+
+#demo{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 110%;
+}
+
+.black2{
+    z-index: -1;
+   position:relative; 
+   width: 100%;
+   height: 110vh;
+   align-self: center;
+   background-image:linear-gradient(to left,#040404, #717171 70%);
+   display:grid;
+   grid-template-columns: auto auto;
+}
+
+.imagem{
+    position: relative;
+    left: 8%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto_3{
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto_3 b{
+    font-size: 64px;
+    color: #EE0A0A;
+    align-self: center;
+}
+
+.texto_3 div p{
+    font-size: 32px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+   
+}
+
+.texto_3 div {
+    width: 612px;
+    align-self: center;
+}
+
+#tecla{
+    align-self: center;
+    top: 20px;
+}
+
+.integrantes{
+    position: relative;
+    top: 190vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.integrantes b{
+    align-self: center;
+    font-size: 64px;
+    color: #EE0A0A;
+}
+.black_integrantes{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-image:linear-gradient(to left,#040404, #717171 70%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ .integrante{
+    position: relative;
+    top: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+
+ }
+ 
+ .img_integrante{
+    position: relative;
+    height: 200px;
+    border: solid 5px #f1f1f1;
+    border-radius: 50%;
+ }
+
+ .integrante b{
+    font-size: 18px;
+    color: #f1f1f1;
+ }
+
+.footer{
+    position: relative;
+    top: 500%;
+    width: 100%;
+    height: auto;
+}
+
+.footer .black{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30vh;
+}
+
+.footer .black p{
+    align-self: center;
+    color: #ffffff;
+}
